@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "dontdistruptmylocatorbar",
+  "version": "${version}",
+  "name": "DontDistruptMyLocatorBar",
+  "description": "Prevents hiding of the locator bar on certain actions (breaking, placing blocks, etc...)",
+  "authors": [],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dontdistruptmylocatorbar/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "dontdistruptmylocatorbar.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.17",
+    "minecraft": "~1.21.6"
+  }
+}
