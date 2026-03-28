@@ -4,8 +4,13 @@
   "version": "${version}",
   "name": "DontDisruptMyLocatorBar",
   "description": "Prevents hiding of the locator bar on certain actions (breaking, placing blocks, etc...)",
-  "authors": [],
-  "contact": {},
+  "authors": [
+    "JustAlittleWolf"
+  ],
+  "contact": {
+		"issues": "https://github.com/JustAlittleWolf/DontDisruptMyLocatorBar/issues/",
+		"sources": "https://github.com/JustAlittleWolf/DontDisruptMyLocatorBar/"
+	},
   "license": "MIT",
   "icon": "assets/dontdisruptmylocatorbar/icon.png",
   "environment": "client",
@@ -14,7 +19,7 @@
     "dontdisruptmylocatorbar.mixins.json"
   ],
   "depends": {
-    "fabricloader": ">=0.17",
-    "minecraft": "~1.21.6"
+    "fabricloader": ">=0.18",
+    "minecraft": ">=1.21.6"
   }
 }
